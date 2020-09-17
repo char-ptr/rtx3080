@@ -1,0 +1,17 @@
+{
+  "name": "rtx3080",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rtx3080ReleaseNotification.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "got": "^11.6.2",
+    "node-notifier": "^8.0.0"
+  }
+}
