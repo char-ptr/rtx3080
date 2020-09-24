@@ -6,3 +6,6 @@ only deno.ts currently works. no point in using the other versions.
 
 run command
 `deno run --unstable deno.ts`
+
+
+massive thanks to Vincent#6562 , and Burkino#2324 for helping find the api.
