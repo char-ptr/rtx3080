@@ -47,7 +47,7 @@ $toast = New-Object Windows.UI.Notifications.ToastNotification $xml
                 let jsn = v.json()
                 jsn.catch(rej2=>{
                     console.log('fetch had invalid jsn')
-                    rej2('fetch had invalid jsn')
+                    rej('fetch had invalid jsn')
                 })
                 jsn.then(val=>{
                     resolv(val)
